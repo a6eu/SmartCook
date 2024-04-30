@@ -206,7 +206,7 @@ const Navbar = () => {
                                             score={250}/>}
                         {userData.photo ? (
                             <Image
-                                className="-mt-1"
+                                className="-mt-1 rounded-full"
                                 src={userData.photo}
                                 alt="User Photo"
                                 width={50}
@@ -214,7 +214,7 @@ const Navbar = () => {
                             />
                         ) : (
                             <Image
-                                className="-mt-1"
+                                className="-mt-1 rounded-full"
                                 src={defaultAvatar}
                                 alt="Default Avatar"
                                 width={50}
